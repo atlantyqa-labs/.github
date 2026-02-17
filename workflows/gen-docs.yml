@@ -1,0 +1,28 @@
+
+name: 📝 Generar PDFs desde Markdown
+
+on:
+  push:
+    paths:
+      - '**.md'
+
+jobs:
+  convert-pdf:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout repo
+        uses: actions/checkout@v3
+
+      - name: Instalar WeasyPrint
+        run: |
+          sudo apt-get update
+          sudo apt-get install -y python3-pip libcairo2 libpango-1.0-0 libgdk-pixbuf2.0-0 libffi-dev
+          pip install markdown2 weasyprint
+
+      - name: Convertir todos los .md a PDF
+        run: |
+          for file in $(find . -name '*.md'); do
+            base=$(basename "$file" .md)
+            dir=$(dirname "$file")
+            python3 -c "import markdown2, weasyprint;             f=open('$file');             weasyprint.HTML(string=markdown2.markdown(f.read())).write_pdf('$dir/$base.pdf')"
+          done
