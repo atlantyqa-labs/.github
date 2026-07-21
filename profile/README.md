@@ -1,85 +1,72 @@
 <div align="center">
 
-# 🌊 ATLANTYQA
+<img src="https://capsule-render.vercel.app/api?type=waving&color=0:0d4f77,100:0f7a5a&height=220&section=header&text=ATLANTYQA&fontSize=70&fontColor=ffffff&animation=fadeIn&fontAlignY=38&desc=Soberan%C3%ADa%20digital%20y%20cognitiva,%20construida%20en%20abierto&descAlignY=58&descSize=20" width="100%" alt="ATLANTYQA banner" />
 
-**Soberanía digital y cognitiva, construida en abierto, aprendida haciendo.**
-
-[![Website](https://img.shields.io/badge/web-atlantyqa.org-0d4f77?style=for-the-badge)](https://atlantyqa.org)
-[![License: sovereign-first](https://img.shields.io/badge/philosophy-local--first-0f7a5a?style=for-the-badge)](https://github.com/atlantyqa-labs/atlantyqa-universe)
+<img src="https://readme-typing-svg.demolab.com/?font=Fira+Code&weight=600&size=22&pause=1400&color=0F7A5A&center=true&vCenter=true&width=700&lines=No+construimos+cajas+negras.;Construimos+soberan%C3%ADa+con+evidencia.;Cada+decisi%C3%B3n+sensible%2C+aprobada+por+un+humano.;Auditado+por+dise%C3%B1o%2C+no+por+promesa." alt="Typing SVG" />
 
 </div>
 
 ---
 
-## 🎯 Qué hacemos
+## La postura
 
-Construimos infraestructura y agentes cognitivos **soberanos**: sistemas
-que un colaborador, una asociación o una pyme puede operar, auditar y
-entender de principio a fin — sin depender de una nube que no controla,
-ni de una caja negra que no puede auditar.
+La próxima ola tecnológica no necesita más usuarios capturados por
+plataformas que no controlan. Necesita **ciudadanos, asociaciones y
+pymes con criterio técnico propio** — capaces de operar, auditar y
+entender su propia infraestructura de principio a fin.
 
-No es tecnología por la tecnología. Es una postura: **la soberanía
-cognitiva se recupera con evidencia, no con promesas** — cada decisión
-automatizada deja rastro, cada acción sensible pasa por aprobación
-humana explícita, cada componente se explica como una caja negra con
-contrato, no como magia.
+Eso es lo que construimos. No es una promesa de marketing: es una regla
+que no negociamos — **lo que decide algo por un humano, lo aprueba un
+humano**. Cada componente sensible pasa por un gate HILT (Human-In-The-Loop)
+real, verificado en vivo, no simulado.
 
-## 🎓 Para estudiantes y nuevos talentos (Universidades y FP)
+## 🎓 Si vienes de la Universidad o de un Grado Superior
 
-Si vienes de una Universidad, un Grado Superior o simplemente te
-interesa cómo se construye software soberano de verdad — bienvenido.
-Publicamos:
+No te pedimos que confíes. Te damos evidencia:
 
-- **Academia** — laboratorios reales con evidencia verificable, no
-  ejercicios de juguete.
-- **SDK del desarrollador** — para integrar con nuestra plataforma sin
-  tener que adivinar el contrato de cada componente.
-- **Método didáctico de "cajas negras"** — cada pieza técnica documentada
-  como propósito + inputs + outputs + riesgos + controles, no como un
-  tutorial de una herramienta que cambiará en dos años.
+- **Academia** — laboratorios reales con verificación automática, no
+  ejercicios de juguete que nadie corrige.
+- **SDK del desarrollador** — el contrato de cada componente explícito,
+  no adivinado leyendo código ajeno.
+- **Método de cajas negras** — propósito, inputs, outputs, riesgos y
+  controles documentados para cada pieza técnica que publicamos.
 
-## 🧰 Con qué construimos
+Si tu ambición es entender sistemas de verdad —no solo usarlos— este es
+tu sitio.
 
 <div align="center">
 
-![Python](https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white)
-![FastAPI](https://img.shields.io/badge/FastAPI-009688?style=for-the-badge&logo=fastapi&logoColor=white)
-![Streamlit](https://img.shields.io/badge/Streamlit-FF4B4B?style=for-the-badge&logo=streamlit&logoColor=white)
-![Kubernetes](https://img.shields.io/badge/MicroK8s-326CE5?style=for-the-badge&logo=kubernetes&logoColor=white)
-![OpenTofu](https://img.shields.io/badge/OpenTofu-FFDA18?style=for-the-badge&logo=opentofu&logoColor=black)
-![Ansible](https://img.shields.io/badge/Ansible-EE0000?style=for-the-badge&logo=ansible&logoColor=white)
-![Docker](https://img.shields.io/badge/Docker-2496ED?style=for-the-badge&logo=docker&logoColor=white)
-![GitHub Actions](https://img.shields.io/badge/GitHub_Actions-2088FF?style=for-the-badge&logo=githubactions&logoColor=white)
-![Proxmox](https://img.shields.io/badge/Proxmox_VE-E57000?style=for-the-badge&logo=proxmox&logoColor=white)
+### 🧰 Con qué construimos
+
+<img src="https://skillicons.dev/icons?i=python,fastapi,streamlit,kubernetes,terraform,ansible,docker,githubactions,proxmox" alt="Tech stack" />
 
 </div>
 
-Infraestructura declarativa (OpenTofu/Ansible) sobre nodos propios,
-runtime cognitivo local-first, y una única regla que no negociamos: **lo
-que decide algo por un humano, lo aprueba un humano** — nuestros gates
-HILT (Human-In-The-Loop) no son fricción, son la garantía de que nadie
-se despierta un día sin saber por qué cambió algo importante.
+Infraestructura declarativa (OpenTofu + Ansible) sobre nodos propios.
+Runtime cognitivo local-first. State soberano — ni un secreto, ni un
+token, ni una credencial viven en una nube que no es nuestra.
 
-## 🛡️ Vigilados por la propia comunidad
+## 🛡️ Nos audita la comunidad, no solo nosotros mismos
 
-[![OpenSSF Scorecard](https://img.shields.io/badge/OpenSSF-Scorecard-3B5BDB?style=for-the-badge)](https://github.com/ossf/scorecard)
+<div align="center">
 
-Auditamos nuestra propia postura de seguridad de cadena de suministro con
-el benchmark más adoptado por la comunidad OSS — no nos autoevaluamos a
+[![OpenSSF Scorecard](https://img.shields.io/badge/OpenSSF-Scorecard-3B5BDB?style=for-the-badge&logo=openssf&logoColor=white)](https://github.com/ossf/scorecard)
+[![OpenTofu](https://img.shields.io/badge/IaC-OpenTofu-FFDA18?style=for-the-badge&logo=opentofu&logoColor=black)](https://opentofu.org)
+
+</div>
+
+Medimos nuestra propia postura de seguridad de cadena de suministro con
+el benchmark más adoptado del ecosistema OSS. Sin autoevaluación a
 puerta cerrada.
 
-## 🌍 Contexto
-
-Escrito en 2026, con la soberanía digital europea como telón de fondo
-real, no aspiracional: creemos que la próxima ola tecnológica global
-merece ciudadanos con criterio propio, no usuarios capturados por el
-secuestro cognitivo de quien controla la infraestructura. Esa es la
-apuesta de ATLANTYQA.
-
 ---
 
 <div align="center">
 
-*Construido en abierto. Aprendido haciendo. Auditado por diseño.*
+<img src="https://capsule-render.vercel.app/api?type=waving&color=0:0f7a5a,100:0d4f77&height=120&section=footer" width="100%" alt="footer" />
+
+**Construido en abierto · Aprendido haciendo · Auditado por diseño**
+
+[atlantyqa.org](https://atlantyqa.org)
 
 </div>
