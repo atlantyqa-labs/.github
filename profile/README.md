@@ -34,6 +34,42 @@ No te pedimos que confíes. Te damos evidencia:
 Si tu ambición es entender sistemas de verdad —no solo usarlos— este es
 tu sitio.
 
+<details>
+<summary><b>📈 Por qué esto importa ahora, con números reales (no motivación de póster)</b></summary>
+<br>
+
+España pierde más talento STEM del que forma — y no es un problema de
+capacidad, es un problema de acompañamiento real:
+
+- La tasa de abandono en carreras STEM ronda el **50%**; solo el
+  **7,54%** de quienes se matriculan terminan a tiempo y con todo
+  aprobado ([DigitalES / COIT, "Anatomía de la brecha de talento
+  tecnológico"](https://www.coit.es/sites/default/files/digitales_anatomia_brecha_talento_tecnologico.pdf)).
+- El empleo STEM en España **cayó** de 1.096.700 personas (T3 2024) a
+  1.047.700 (T3 2025), mientras la demanda de perfiles de IA/datos sube
+  un **+12,3%** en selectividad ([El Independiente,
+  2026](https://www.elindependiente.com/eli/2026/05/13/talento-stem-clave-competitividad-seleccion-it-ingenieros/)).
+- Al mismo tiempo, la empleabilidad de quien sí termina es real: **94,7%**
+  en Ingeniería Informática, **96,2%** en Ingeniería Industrial, y **63,2%**
+  de afiliación a la Seguridad Social ya en el primer año de FP Grado
+  Superior — superando el **80%** al cuarto año en las familias
+  profesionales más demandadas ([Ministerio de Educación, FP y Deportes,
+  noviembre 2025](https://www.educacionfpydeportes.gob.es/prensa/actualidad/2025/11/20251126-insercionlaboralfp.html)).
+
+No es un problema de talento. Es un problema de **con qué te encuentras
+cuando empiezas** — laboratorios de juguete, contratos de componente
+inventados sobre la marcha, cajas negras que nadie te explica. Por eso
+lo que construimos arriba (Academia, SDK, cajas negras documentadas) no
+es cortesía: es la respuesta directa a por qué la mitad abandona antes
+de comprobar si de verdad le gustaba esto.
+
+Vienes de FP Grado Superior, de un Grado en Ingeniería, o estás
+decidiendo si merece la pena seguir — no te pedimos fe. Te damos algo
+que puedas comprobar tú mismo, a tu ritmo, sin que nadie te lo explique
+mal a propósito.
+
+</details>
+
 <div align="center">
 
 ### 🧰 Con qué construimos — NOTICE de tecnología
