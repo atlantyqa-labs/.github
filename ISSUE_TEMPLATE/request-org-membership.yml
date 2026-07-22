@@ -1,0 +1,66 @@
+name: "🤝 Solicitud de membresía en la organización"
+description: "Pide unirte como miembro de atlantyqa-labs con acceso directo (no fork)"
+title: "[Membresía] "
+labels: ["membership-request", "triad-review"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        **No necesitas esto para contribuir.** Cualquiera puede hacer
+        fork de un repo público de `atlantyqa-labs` y abrir un Pull
+        Request desde su fork — esa es la vía normal y no requiere
+        membresía ni aprobación previa.
+
+        Este formulario es solo para pedir **acceso directo** (push a
+        equipos, no solo fork+PR). Lo revisa la triada, no se concede
+        automáticamente.
+
+  - type: input
+    id: github-login
+    attributes:
+      label: Tu usuario de GitHub
+      placeholder: tu-usuario
+    validations:
+      required: true
+
+  - type: textarea
+    id: motivation
+    attributes:
+      label: ¿Por qué quieres unirte como miembro?
+      description: Qué vas a aportar, en qué repos, con qué frecuencia.
+      placeholder: "Contribuyo regularmente a X, quiero acceso directo para..."
+    validations:
+      required: true
+
+  - type: textarea
+    id: contributions
+    attributes:
+      label: Contribuciones previas (si las hay)
+      description: Enlaces a PRs, issues o forks que ya hayas abierto.
+    validations:
+      required: false
+
+  - type: dropdown
+    id: team
+    attributes:
+      label: ¿A qué equipo/dominio crees que encajas mejor?
+      description: Orientativo — la triada decide el equipo real.
+      options:
+        - devsecops
+        - ai
+        - legal
+        - business
+        - audit
+        - No lo sé, que decida la triada
+    validations:
+      required: true
+
+  - type: markdown
+    attributes:
+      value: |
+        ---
+        **Qué pasa después**: un miembro de la triada (`kabehz`,
+        `L0kyLuke` o `AJCG13121981`) revisa esta solicitud. Si se
+        aprueba, se te invita al equipo correspondiente — nunca es
+        automático, y no responder no es un "no" silencioso: puedes
+        seguir el estado en este mismo issue.
