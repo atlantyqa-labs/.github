@@ -94,9 +94,15 @@ está en uso verificado en el repo, no en la lista porque suene bien.*
 <br>
 <div align="center">
 
-<img src="https://skillicons.dev/icons?i=react,nextjs,threejs" alt="Frontend y 3D" />
+<img src="https://skillicons.dev/icons?i=react,nextjs,threejs,tailwind,vite,typescript" alt="Frontend y 3D" /><br>
+[![Framer Motion](https://img.shields.io/badge/Motion-Framer-0055FF?style=for-the-badge&logo=framer&logoColor=white)](https://www.framer.com/motion)
 
 </div>
+
+Dos superficies reales: `frontend/frontend-shell` (Next.js + React Three
+Fiber/Drei/Three.js para 3D) y `frontend/ux-prototype` (Vite + Tailwind
+CSS + Framer Motion). Sin frameworks CSS-in-JS ni bundlers adicionales
+que no estén realmente en uso.
 </details>
 
 <details>
