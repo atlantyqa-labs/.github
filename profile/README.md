@@ -128,12 +128,17 @@ token, ni una credencial viven en una nube que no es nuestra.
 <br>
 <div align="center">
 
-<img src="https://skillicons.dev/icons?i=pytorch" alt="PyTorch" /><br>
+<img src="https://skillicons.dev/icons?i=pytorch,postgresql,redis" alt="PyTorch, PostgreSQL, Redis" /><br>
 [![spaCy](https://img.shields.io/badge/NLP-spaCy-09A3D5?style=for-the-badge&logo=spacy&logoColor=white)](https://spacy.io)
 [![Hugging Face](https://img.shields.io/badge/Models-Hugging_Face-FFD21E?style=for-the-badge&logo=huggingface&logoColor=black)](https://huggingface.co)
 [![Streamlit](https://img.shields.io/badge/Apps-Streamlit-FF4B4B?style=for-the-badge&logo=streamlit&logoColor=white)](https://streamlit.io)
+[![Qdrant](https://img.shields.io/badge/Vectors-Qdrant-DC244C?style=for-the-badge&logo=qdrant&logoColor=white)](https://qdrant.tech)
 
 </div>
+
+PostgreSQL + Redis + Qdrant (vectores) corriendo de verdad en el device
+mesh (namespaces `legaltech`/`atlantyqa-staging`), no solo mencionados —
+verificados en vivo vía `kubectl get pods`.
 
 Eventing propio (`event_sdk`, interno) sobre este mismo stack — sin
 vendorizar un broker de terceros que no necesitamos todavía.
